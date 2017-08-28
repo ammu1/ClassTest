@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iitkgp.amritha.classtest.SecondActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphA"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/back"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphL"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/graphA"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphP"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/graphL"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphG"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/graphP"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+</RelativeLayout>
