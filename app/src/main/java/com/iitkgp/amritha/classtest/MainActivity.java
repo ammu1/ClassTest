@@ -56,9 +56,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         tvy = (TextView) findViewById(R.id.yval);
         tvz = (TextView) findViewById(R.id.zval);
 
-        pressure = (TextView) findViewById(R.id.zval);
-        light = (TextView) findViewById(R.id.zval);
-        gyro = (TextView) findViewById(R.id.zval);
+        pressure = (TextView) findViewById(R.id.pressure);
+        light = (TextView) findViewById(R.id.light);
+        gyro = (TextView) findViewById(R.id.gyro);
 
         light.setText("Illumination");
         light.setText("Pressure");
